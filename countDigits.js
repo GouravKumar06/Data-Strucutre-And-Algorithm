@@ -1,4 +1,5 @@
 function countDigits(n) {
+    n = Math.abs(n)
     let count = 0;
     while (n > 0) {
         n = parseInt(n / 10);
@@ -7,4 +8,5 @@ function countDigits(n) {
     return count;
 }
 
-console.log(countDigits(123457364))
+
+console.log(countDigits("1234udsdufgdfgh"))
